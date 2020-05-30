@@ -21,6 +21,7 @@ If things get messy it should be possible to place tht resistors at the bottom s
 | [BAT 48 STM](https://www.reichelt.de/schottkydiode-40-v-0-35-a-do-35-bat-48-stm-p219563.html) | schottky diode | 0,04 € |
 | [DG350 3,5-2](https://www.reichelt.de/leiterplattenklemme-2-polig-rm-3-5-mm-dg350-3-5-2-p276224.html) | connector 2-pins | 0,19 € |
 | [DG350 3,5-3](https://www.reichelt.de/leiterplattenklemme-3-polig-rm-3-5-mm-dg350-3-5-3-p276225.html) | connector 3-pins | 0,28 € |
+| [HJR-4102-L 5V](https://www.reichelt.de/dil-miniaturrelais-hjr-4102-5v-1-wechsler-5a-hjr-4102-l-5v-p101950.html) | relay | 0,62 € |
 
 ## schematic
 

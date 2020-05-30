@@ -11,7 +11,7 @@ Comp ""
 Comment1 "ts"
 Comment2 ""
 Comment3 ""
-Comment4 "heating controller"
+Comment4 "heating controll"
 $EndDescr
 $Comp
 L Connector_Generic:Conn_02x13_Odd_Even P1

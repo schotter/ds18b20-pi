@@ -22,6 +22,7 @@ If things get messy it should be possible to place tht resistors at the bottom s
 | [DG350 3,5-2](https://www.reichelt.de/leiterplattenklemme-2-polig-rm-3-5-mm-dg350-3-5-2-p276224.html) | connector 2-pins | 0,19 € |
 | [DG350 3,5-3](https://www.reichelt.de/leiterplattenklemme-3-polig-rm-3-5-mm-dg350-3-5-3-p276225.html) | connector 3-pins | 0,28 € |
 | [HJR-4102-L 5V](https://www.reichelt.de/dil-miniaturrelais-hjr-4102-5v-1-wechsler-5a-hjr-4102-l-5v-p101950.html) | relay | 0,62 € |
+| [K-O RD12JN152T52](https://www.reichelt.de/widerstand-kohleschicht-1-5-kohm-0411-500-mw-5-k-o-rd12jn152t52-p237423.html) | 1,5k resistor | 0,08 € |
 
 ## schematic
 

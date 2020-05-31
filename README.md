@@ -15,14 +15,14 @@ If things get messy it should be possible to place tht resistors at the bottom s
 
 ## bom
 
-| part | description | price |
-|------|-------------|-------|
-| [2N 7000 DIO](https://www.reichelt.de/mosfet-n-ch-60v-0-115a-0-4w-to-92-2n-7000-dio-p219075.html) | n-channel mosfet | 0,08 € |
-| [BAT 48 STM](https://www.reichelt.de/schottkydiode-40-v-0-35-a-do-35-bat-48-stm-p219563.html) | schottky diode | 0,04 € |
-| [DG350 3,5-2](https://www.reichelt.de/leiterplattenklemme-2-polig-rm-3-5-mm-dg350-3-5-2-p276224.html) | connector 2-pins | 0,19 € |
-| [DG350 3,5-3](https://www.reichelt.de/leiterplattenklemme-3-polig-rm-3-5-mm-dg350-3-5-3-p276225.html) | connector 3-pins | 0,28 € |
-| [HJR-4102-L 5V](https://www.reichelt.de/dil-miniaturrelais-hjr-4102-5v-1-wechsler-5a-hjr-4102-l-5v-p101950.html) | relay | 0,62 € |
-| [K-O RD12JN152T52](https://www.reichelt.de/widerstand-kohleschicht-1-5-kohm-0411-500-mw-5-k-o-rd12jn152t52-p237423.html) | 1,5k resistor | 0,08 € |
+| part | description | price | manufacturer | datasheet |
+|------|-------------|-------|--------------|-----------|
+| [2N 7000 DIO](https://www.reichelt.de/mosfet-n-ch-60v-0-115a-0-4w-to-92-2n-7000-dio-p219075.html) | n-channel mosfet | 0,08 € | [diotec](https://diotec.com/en/productlist.html?productfamily=FET) | [pdf](https://diotec.com/tl_files/diotec/files/pdf/datasheets/2n7000.pdf) |
+| [BAT 48 STM](https://www.reichelt.de/schottkydiode-40-v-0-35-a-do-35-bat-48-stm-p219563.html) | schottky diode | 0,04 € | [st](https://www.st.com/en/diodes-and-rectifiers/bat48.html) | [pdf](https://www.st.com/resource/en/datasheet/bat48.pdf) |
+| [DG350 3,5-2](https://www.reichelt.de/leiterplattenklemme-2-polig-rm-3-5-mm-dg350-3-5-2-p276224.html) | connector 2-pins | 0,19 € | [degson](http://degson.de/en/pro_detail/id/542) | [pdf](http://degson.de/en/downpdf/id/542.html) |
+| [DG350 3,5-3](https://www.reichelt.de/leiterplattenklemme-3-polig-rm-3-5-mm-dg350-3-5-3-p276225.html) | connector 3-pins | 0,28 € | [degson](http://degson.de/en/pro_detail/id/542) | [pdf](http://degson.de/en/downpdf/id/542.html) |
+| [HJR-4102-L 5V](https://www.reichelt.de/dil-miniaturrelais-hjr-4102-5v-1-wechsler-5a-hjr-4102-l-5v-p101950.html) | relay | 0,62 € | [tianbo](http://www.tianbo-relay.com/en/products.php?tid=10) | [pdf](http://www.tianbo-relay.com/upload/2019062414532076.pdf) |
+| [K-O RD12JN152T52](https://www.reichelt.de/widerstand-kohleschicht-1-5-kohm-0411-500-mw-5-k-o-rd12jn152t52-p237423.html) | 1,5k resistor | 0,08 € | | |
 
 ## schematic
 

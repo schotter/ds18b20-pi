@@ -23,6 +23,7 @@ If things get messy it should be possible to place tht resistors at the bottom s
 | [DG350 3,5-3](https://www.reichelt.de/leiterplattenklemme-3-polig-rm-3-5-mm-dg350-3-5-3-p276225.html) | connector 3-pins | 0,28 € | [degson](http://degson.de/en/pro_detail/id/542) | [pdf](http://degson.de/en/downpdf/id/542.html) |
 | [HJR-4102-L 5V](https://www.reichelt.de/dil-miniaturrelais-hjr-4102-5v-1-wechsler-5a-hjr-4102-l-5v-p101950.html) | relay | 0,62 € | [tianbo](http://www.tianbo-relay.com/en/products.php?tid=10) | [pdf](http://www.tianbo-relay.com/upload/2019062414532076.pdf) |
 | [K-O RD12JN152T52](https://www.reichelt.de/widerstand-kohleschicht-1-5-kohm-0411-500-mw-5-k-o-rd12jn152t52-p237423.html) | 1,5k resistor | 0,08 € | | |
+| [LED 3MM 5V GN](https://www.reichelt.de/led-3-mm-bedrahtet-5-v-gruen-20-mcd-60-led-3mm-5v-gn-p54093.html) | green led with embedded resistor | 0,31 € | [kingbright](https://www.kingbright.com/content/listitem/psearch/259) | [pdf](https://cdn-reichelt.de/documents/datenblatt/A500/L-934GD-5V.pdf) |
 
 ## schematic
 

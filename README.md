@@ -13,6 +13,10 @@ So there is no communication protocol, just a simple "on/off switch" that can be
 Normally I would add a pull-down resistor (10k) to every mosfet's gate, but there is not enough space.
 If things get messy it should be possible to place tht resistors at the bottom side or maybe even just smd resistors between every mosfet's source (square) and gate (middle) pin.
 
+The green leds were added to signal the relay's status and are kind of optional.
+As the wires to all sensors got pretty long a [tvs-diode](https://en.wikipedia.org/wiki/Transient-voltage-suppression_diode) was added to prevent damage from esd events.
+Unfortunately there is no tht version so I had to pick a smd package.
+
 ## bom
 
 | part | description | price | manufacturer | datasheet |
@@ -24,6 +28,7 @@ If things get messy it should be possible to place tht resistors at the bottom s
 | [HJR-4102-L 5V](https://www.reichelt.de/dil-miniaturrelais-hjr-4102-5v-1-wechsler-5a-hjr-4102-l-5v-p101950.html) | relay | 0,62 € | [tianbo](http://www.tianbo-relay.com/en/products.php?tid=10) | [pdf](http://www.tianbo-relay.com/upload/2019062414532076.pdf) |
 | [K-O RD12JN152T52](https://www.reichelt.de/widerstand-kohleschicht-1-5-kohm-0411-500-mw-5-k-o-rd12jn152t52-p237423.html) | 1,5k resistor | 0,08 € | | |
 | [LED 3MM 5V GN](https://www.reichelt.de/led-3-mm-bedrahtet-5-v-gruen-20-mcd-60-led-3mm-5v-gn-p54093.html) | green led with embedded resistor | 0,31 € | [kingbright](https://www.kingbright.com/content/listitem/psearch/259) | [pdf](https://cdn-reichelt.de/documents/datenblatt/A500/L-934GD-5V.pdf) |
+| [PESD3V3S2UT](https://www.reichelt.de/doppe-esd-schutzdiode-3-3-vrwm-20-vcl-30kv-sot-23-pesd3v3s2ut-p271905.html) | TVS-diode | 0,12 € | [nxp](https://www.nexperia.com/products/esd-protection-tvs-filtering-and-signal-conditioning/automotive-esd-protection-and-tvs/automotive-esd-protection/PESD3V3S2UT.html) | [pdf](https://assets.nexperia.com/documents/data-sheet/PESDXS2UT_SERIES.pdf) |
 
 ## schematic
 

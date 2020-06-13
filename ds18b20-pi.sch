@@ -6,12 +6,12 @@ encoding utf-8
 Sheet 1 1
 Title "ds18b20 raspberry pi 1"
 Date "2020-06-03"
-Rev "C"
+Rev "D"
 Comp ""
 Comment1 "ts"
 Comment2 ""
 Comment3 ""
-Comment4 "heating controll"
+Comment4 "heating control"
 $EndDescr
 $Comp
 L Connector_Generic:Conn_02x13_Odd_Even P1
@@ -252,7 +252,7 @@ Wire Wire Line
 Text Label 550  4200 0    60   ~ 0
 GPIO4
 Wire Wire Line
-	550  4200 1250 4200
+	550  4200 1150 4200
 Connection ~ 1500 4200
 Wire Wire Line
 	1500 4200 1500 4450
@@ -1053,4 +1053,38 @@ F 3 "~" H 3850 5950 50  0001 C CNN
 	1    3850 5950
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Power_Protection:SP0502BAHT D13
+U 1 1 5EE5A541
+P 1050 4550
+F 0 "D13" H 1255 4596 50  0000 L CNN
+F 1 "PESD3V3S2UT" H 1255 4505 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1275 4500 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 1175 4675 50  0001 C CNN
+	1    1050 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  4350 950  3800
+Wire Wire Line
+	950  3800 1250 3800
+Connection ~ 1250 3800
+Wire Wire Line
+	1150 4350 1150 4200
+Connection ~ 1150 4200
+Wire Wire Line
+	1150 4200 1250 4200
+$Comp
+L power:GND #PWR06
+U 1 1 5EE69ECE
+P 1050 4800
+F 0 "#PWR06" H 1050 4550 50  0001 C CNN
+F 1 "GND" H 1050 4650 50  0000 C CNN
+F 2 "" H 1050 4800 50  0000 C CNN
+F 3 "" H 1050 4800 50  0000 C CNN
+	1    1050 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1050 4750 1050 4800
 $EndSCHEMATC

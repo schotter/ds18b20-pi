@@ -1,3 +1,10 @@
+<div style="font-size: 48pt; color: #e33;">DO NOT USE!</div>
+
+Never produced and it's constructed in a stupid way.
+It ignores 1-Wire's bus structure.
+
+<hr/>
+
 # ds18b20-pi
 
 A simple extension board for the raspberry pi 1 model **b** with only **26** GPIO pins.
